@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin: 100%;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+.wrapper{
+    max-width: 20%;
+    margin: auto;
+}
+.wrapper > h1{
+    margin: 1.2rem 0;
+    text-align: center;
+    font-size: medium;
+}
+.Question{
+    background-color: white;
+    color: blue;
+    outline-color: grey;
+    justify-content: space-between;
+    display: flex; 
+    width: 100%;
+    
+}
+.question i{
+    font-size: 1.6rem;
+}
+.acive, 
+.Question:hover {
+    background-color: white;
+
+}
